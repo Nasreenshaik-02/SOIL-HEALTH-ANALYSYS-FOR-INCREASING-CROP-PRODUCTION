@@ -1,0 +1,40 @@
+           ┌───────────────────────────────┐
+           │    User Interface Layer       │
+           │ (Chatbot: Web / Mobile / IVR) │
+           └────────────┬──────────────────┘
+                        │
+                        ▼
+      ┌──────────────────────────────────────────┐
+      │     NLP & Dialogue Management Layer      │
+      │ (Intent Detection, Entity Extraction)    │
+      │ Tools: Rasa, Dialogflow, GPT API         │
+      └────────────┬─────────────────────────────┘
+                   │
+                   ▼
+     ┌────────────────────────────────────────────┐
+     │        Business Logic & Processing Layer   │
+     │ - Chat Intent Routing                      │
+     │ - Crop Recommendation Logic                │
+     │ - Fertilizer Decision Engine               │
+     │ - Rule Engine (Agri Guidelines)            │
+     └────────────┬───────────────────────────────┘
+                  │
+                  ▼
+     ┌────────────────────────────────────────────┐
+     │         Machine Learning Models Layer      │
+     │ - Soil Classification (pH, EC, NPK)        │
+     │ - Crop Suitability Prediction              │
+     │ - Fertilizer Deficiency Prediction         │
+     │ Tools: scikit-learn, XGBoost, TensorFlow   │
+     └────────────┬───────────────────────────────┘
+                  │
+                  ▼
+     ┌────────────────────────────────────────────┐
+     │         Data Layer (Storage + Access)      │
+     │ - Soil Health Database                     │
+     │ - User Profiles                            │
+     │ - Government APIs (SHC, mKisan)            │
+     │ - Weather APIs                             │
+     │ Tools: PostgreSQL, Firebase, MongoDB       │
+     └────────────────────────────────────────────┘
+
